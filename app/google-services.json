@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "274197769693",
+    "firebase_url": "https://hospitalapp-912a6.firebaseio.com",
+    "project_id": "hospitalapp-912a6",
+    "storage_bucket": "hospitalapp-912a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274197769693:android:fc8fb88eb8352926",
+        "android_client_info": {
+          "package_name": "com.example.utkarsh.hospitalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274197769693-2doe7gimhg4t9ld2smvqq817ttaki88q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utkarsh.hospitalapp",
+            "certificate_hash": "7f7be6e3e4316039f1b4b71890d04f7394775937"
+          }
+        },
+        {
+          "client_id": "274197769693-ig7ihsnocv4lcq5v778v9maq68nsv9vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKo8W4CoTgcS8gfGsWgrlSEwl-jExHGyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274197769693-ig7ihsnocv4lcq5v778v9maq68nsv9vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274197769693:android:e0d0f17762ef27a4",
+        "android_client_info": {
+          "package_name": "com.example.utkarsh.utilitybaazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274197769693-bqgcapfb1o19iibf1k11hb2ot2aqunh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utkarsh.utilitybaazar",
+            "certificate_hash": "36a55e437d550d134fa695ffd10953e72ee2044b"
+          }
+        },
+        {
+          "client_id": "274197769693-ig7ihsnocv4lcq5v778v9maq68nsv9vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKo8W4CoTgcS8gfGsWgrlSEwl-jExHGyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274197769693-ig7ihsnocv4lcq5v778v9maq68nsv9vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
