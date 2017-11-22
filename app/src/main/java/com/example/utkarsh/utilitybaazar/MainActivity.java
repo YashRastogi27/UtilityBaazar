@@ -2,7 +2,7 @@ package com.example.utkarsh.utilitybaazar;
 
 import android.*;
 import android.Manifest;
-import android.app.FragmentManager;
+import android.support.v4.app.FragmentManager;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -27,6 +27,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.utkarsh.utilitybaazar.fragments.ProductsFragment;
 import com.example.utkarsh.utilitybaazar.fragments.mainFragment;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -112,8 +113,8 @@ public class MainActivity extends AppCompatActivity
         }
 
 
-        FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.map, new mainFragment()).commit();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.map, (new mainFragment())).commit();
     }
 
 
@@ -177,9 +178,9 @@ public class MainActivity extends AppCompatActivity
         android.support.v4.app.FragmentManager sfm = getSupportFragmentManager();
 
 
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
 
-      if(supportMapFragment.isAdded()){
+        if(supportMapFragment.isAdded()){
             sfm.beginTransaction().hide(supportMapFragment).commit();
         }
         //initializing the fragment object upon its selection
@@ -190,8 +191,11 @@ public class MainActivity extends AppCompatActivity
                 break;
            */
             case R.id.nav_home:
+                fragmentManager.beginTransaction().replace(R.id.map, new homeFragment()).addToBackStack(null).commit();
+                break;
 
-                fragmentManager.beginTransaction().replace(R.id.map, new homeFragment()).commit();
+            case R.id.nav_products:
+                fragmentManager.beginTransaction().replace(R.id.map, new ProductsFragment()).addToBackStack(null).commit();
                 break;
 
             case R.id.nav_nearby:
@@ -204,11 +208,11 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_notefication:
-                fragmentManager.beginTransaction().replace(R.id.map, new notificationFragment()).commit();
+                fragmentManager.beginTransaction().replace(R.id.map, new notificationFragment()).addToBackStack(null).commit();
                 break;
 
             case R.id.nav_services:
-                fragmentManager.beginTransaction().replace(R.id.map, new servicesFragment()).commit();
+                fragmentManager.beginTransaction().replace(R.id.map, new servicesFragment()).addToBackStack(null).commit();
                 break;
 
             case R.id.nav_logout:

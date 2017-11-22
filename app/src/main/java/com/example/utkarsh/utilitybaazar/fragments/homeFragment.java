@@ -14,7 +14,7 @@ import com.example.utkarsh.utilitybaazar.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class homeFragment extends android.app.Fragment {
+public class homeFragment extends Fragment {
 
 
     public homeFragment() {
