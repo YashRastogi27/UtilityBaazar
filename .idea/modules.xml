@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UtilityBaazar.iml" filepath="$PROJECT_DIR$/.idea/UtilityBaazar.iml" />
-      <module fileurl="file://C:\Users\Yash\AndroidStudioProjects\UtilityBaazar\UtilityBaazar.iml" filepath="C:\Users\Yash\AndroidStudioProjects\UtilityBaazar\UtilityBaazar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
